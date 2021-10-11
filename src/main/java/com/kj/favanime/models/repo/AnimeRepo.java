@@ -1,0 +1,1 @@
+package com.kj.favanime.models.repo;import com.kj.favanime.models.AnimeList;import org.springframework.data.jpa.repository.JpaRepository;import java.util.Optional;public interface AnimeRepo extends JpaRepository<AnimeList, Long> {    void deleteAnimeListById(Long id);    Optional<AnimeList> findAnimeListById(Long mal_id);}

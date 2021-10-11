@@ -1,0 +1,1 @@
+package com.kj.favanime.models.exceptions;public class animeNotFoundException extends RuntimeException {    public animeNotFoundException(String message) {        super(message);    }}
