@@ -9,5 +9,7 @@ public class SkylarkHomeBackApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SkylarkHomeBackApplication.class, args);
 	}
-
+public static void nikita(){
+	
+}
 }
